@@ -1,5 +1,5 @@
 .kv{
-   background-image: url(./img/background.jpeg);
+   background-image: url(../img/background.jpeg);
    background-size: cover;
    background-repeat: no-repeat;
    overflow: hidden;
@@ -412,10 +412,10 @@ footer{
   background-color:transparent;
 }
 #humberger:checked + .bun .pate::before{
-  transform: rotate(45deg); translate:(5px,5px);
+  transform: rotate(45deg);translate:(5px,5px);
 }
 #humberger:checked + .bun .pate::after{
-  transform: rotate(-45deg); translate:(7px,-8px);
+  transform: rotate(-45deg);translate:(7px,-8px);
 }
 
 }
