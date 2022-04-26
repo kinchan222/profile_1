@@ -374,7 +374,7 @@ footer{
   height: 30px;
   display: block;
   cursor: pointer;
-  /* background-color: pink; */
+  background-color: pink;
   margin-top: 4px;
 }
 
@@ -411,11 +411,19 @@ footer{
 #humberger:checked + .bun .pate{
   background-color:transparent;
 }
-#humberger:checked + .bun .pate::before{
+/* #humberger:checked + .bun .pate::before{
   transform: rotate(45deg);translate:(5px,5px);
 }
 #humberger:checked + .bun .pate::after{
-  transform: rotate(-45deg);translate:(7px,-8px);
+  transform: rotate(-45deg);translate:(7px,20px);
+}  */
+
+#humberger:checked + .bun .pate::before{
+  top: 0px;
+  transform: rotate(45deg);
 }
+#humberger:checked + .bun .pate::after{
+  transform: rotate(-45deg);
+} 
 
 }
