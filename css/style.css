@@ -329,6 +329,14 @@ footer{
    position: static;
  }
 
+ .thitd_top p{
+   position: static;
+ }
+
+ .thitd_ander  p{
+   position: static
+ }
+
  .thitd_ander {
   height: auto;
 }
