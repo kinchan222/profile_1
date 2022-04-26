@@ -320,54 +320,22 @@ footer{
     height: auto;
     margin-bottom: 10px;
   }
- .thitd h2{
-   font-size: 40px;
-   font-weight: 900;
+  .thitd h2{
+    font-size: 40px;
+    font-weight: 900;
  }
- 
-  .thitd_top {
-    position: static;
-    height: 2%;
-  }
 
-  .thitd_top p{
-    position: static;
-    font-size: 25px;
-  }
+ .thitd *{
+   position: static;
+ }
 
-  .cofee{
-    position: static;
-  }
+ .thitd_ander {
+  height: auto;
+}
 
-  .fishing{
-    position: static;
-  }
-
-  .snorkeling{
-    position: static;
-  }
-
-  .thitd_ander {
-    position: static;
-    height: max-content;
-  }
-  
-  .thitd_ander p{
-    position: static;
-    font-size: 25px;
-  }
-
-  .travel{
-    position: static;
-  }
-
-  .BBQ{
-    position: static;
-  }
- 
-  .thitd_ander a{
-    position: static;
-  }
+.thitd_top {
+  height: 2%;
+}
 
 .bun{
   width: 30px;
