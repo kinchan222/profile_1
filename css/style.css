@@ -268,7 +268,7 @@ footer{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    height: 50%;
+    height: auto;
    }
 
    .fhoto2 img{
@@ -342,7 +342,7 @@ footer{
 }
 
 .thitd_top {
-  height: 2%;
+  height: auto;
 }
 
 .bun{
@@ -350,7 +350,7 @@ footer{
   height: 30px;
   display: block;
   cursor: pointer;
-  background-color: pink;
+  /* background-color: pink; */
   margin-top: 4px;
 }
 
@@ -360,7 +360,7 @@ footer{
   width: 100%;
   height: 5px;
   display: block;
-  background-color: red;
+  background-color: gray;
   border-radius: 2px;
   transition: all 1s ease;
 }
@@ -387,19 +387,13 @@ footer{
 #humberger:checked + .bun .pate{
   background-color:transparent;
 }
-/* #humberger:checked + .bun .pate::before{
-  transform: rotate(45deg);translate:(5px,5px);
-}
-#humberger:checked + .bun .pate::after{
-  transform: rotate(-45deg);translate:(7px,20px);
-}  */
 
 #humberger:checked + .bun .pate::before{
-  top: 0px;
-  transform: rotate(45deg);
+  transform: rotate(45deg) translate(5px,5px);
 }
 #humberger:checked + .bun .pate::after{
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) translate(7px, -8px);
 } 
+
 
 }
